@@ -1,0 +1,9 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "url": "postgres://eqbvglqnmzwfue:e4469d2a08e38ea4bedbd7fb81b4ec277f60219d08d7e401e4bc4cb45cabc92c@ec2-54-167-152-185.compute-1.amazonaws.com:5432/d60rvvh4bd3p93",
+  "synchronize": true,
+  "logging": true,
+  "ssl" : { "rejectUnauthorized": false },
+  "entities": ["./src/models/*.ts"]
+}
